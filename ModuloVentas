@@ -1,3 +1,6 @@
+Jhon Freddy Barbosa
+Enrique Moreno Silva
+
 server.port=8090
 server.servlet.context-path=/ModuloVentas/api
 spring.datasource.url=jdbc:postgresql://localhost:5432/modulodeventas
