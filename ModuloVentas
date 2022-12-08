@@ -1,1 +1,16 @@
-
+server.port=8090
+server.servlet.context-path=/ModuloVentas/api
+spring.datasource.url=jdbc:postgresql://localhost:5432/modulodeventas
+spring.datasource.username=postgres
+spring.datasource.password=4d3F6v22-*
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.jdbc.time_zone=UTC
+# Hibernate ddl auto (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto=update
+#spring.datasource.url=jdbc:mysql://localhost/modulodeventas
+#spring.datasource.username=root
+#spring.datasource.password=1234
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#spring.jpa.database-platform=org.hibernate.dialect.MySQL57Dialect
+#spring.jpa.hibernate.ddl-auto=update
+#logging.level.org.hibernate.sql=debug
